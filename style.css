@@ -224,17 +224,21 @@ body {
     }
     .post-subs {
         display: none;
-        width: 100%;
+        width: 92%;
         height: 100vh;
-        border-radius: 2px;
+        border-radius: 20px;
         padding: 2.5rem 1.5rem;
         position: fixed;
-        top: 0;
-        left: 0;
-        transform: none; 
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
         box-shadow: none;
         flex-direction: column;
         justify-content: center;
+    }
+    #pst-sbscrptn {
+        font-size: 0.95rem;
+        margin-bottom: 2.2rem;
     }
     .post-subs #dismiss-btn {
         margin-top: auto; 
