@@ -18,12 +18,24 @@ document.getElementById('newsletter-form').addEventListener('submit', function(e
         isValid = false;
     }
 
+    if (!isValid) {
+        setTimeout(() => {
+            errorMsg.textContent = '';
+            userEmail.style.borderColor = '';
+            userEmail.style.backgroundColor = '';
+            userEmail.value = '';
+        }, 5000);
+    }
+
     if (isValid) {
         const emailValue = userEmail.value.trim();
 
         document.getElementById('pst-sbscrptn').textContent = 
             `A confirmation email has been sent to ${emailValue}. 
             Please open it and click the button inside to confirm your subscription.`;
+
+        userEmail.value = '';
+        errorMsg.textContent = '';
 
         document.getElementById('pop-msg-wrp').style.display = 'block';
     }
