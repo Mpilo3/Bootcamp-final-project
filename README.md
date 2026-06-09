@@ -53,7 +53,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (github.com/Mpilo3/Bootcamp-final-project.git)
-- Live Site URL: (https://your-live-site-url.com)
+- Live Site URL: ()
 
 ## My process
 
