@@ -100,9 +100,10 @@ body {
     display: none;
     background-color: hsl(0, 0%, 100%);
     border-radius: 20px;
-    padding: 2.5rem;
+    padding: 2.5rem 2rem;
     height: 500px;
     width: 350px;
+    max-width: 92%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -188,7 +189,6 @@ body {
 @media (max-width: 767px) {
     body {
         background-color: hsl(0, 0%, 100%);
-        align-items: flex-start;
     }
 
     #form-wrp {
@@ -233,7 +233,6 @@ body {
         left: 0;
         transform: none; 
         box-shadow: none;
-        display: flex; 
         flex-direction: column;
         justify-content: center;
     }
