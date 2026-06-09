@@ -52,7 +52,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Mpilo3/Bootcamp-final-project.git)
+- Solution URL: (github.com/Mpilo3/Bootcamp-final-project.git)
 - Live Site URL: (https://your-live-site-url.com)
 
 ## My process
