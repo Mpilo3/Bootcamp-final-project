@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+
+  <div id="form-wrp" class="signupForm">
+    <div class="img-cntnr">
+      <img id="illustration-sign-up-desktop" src="assets/images/illustration-sign-up-desktop.svg">
+    </div>
+    <div id="insideForm" class="signupForm">
+      <div id="nwslttrCard">
+        <form id="newsletter-form">
+          <p id="form-title">Stay updated!<p>
+
+          <p>Join 60,000+ product managers receiving monthly updates on:</p>
+
+          <div class="iconlist">
+            <p class="success-list">
+              <img src="assets/images/icon-success.svg" height="30px" width="25px">
+              Product discovery and building what matters!
+            </p>
+            <p class="success-list">
+              <img src="assets/images/icon-success.svg" height="30px" width="25px">
+              Measuring to ensure updates are a success
+            </p>
+            <p class="success-list">
+              <img src="assets/images/icon-success.svg" height="30px" width="25px">
+              And much more
+            </p>
+
+            <div id="email-wrp">
+              <div id="label-email">
+                <label id="lblEmail" for="email">Email address</label>
+                <span id="userErrorMsg"></span>
+              </div>
+              <input id="userEmail" name="email" type="text" placeholder="johndoe@yahoo.com">
+              <button id="subscribeBtn" class="newsletterBtn">
+                Subscribe to monthly newsletter
+              </button>
+            </div>
+          </div>
+          <div id="nws-wrp-btn">
+            
+          </div> 
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div id="pop-msg-wrp" class="post-subs">
+    <div id="pop-msg">
+      <img src="assets/images/icon-success.svg">
+      <p id="pst-sub-msg">Thanks for subscribing!</p>
+      <p id="pst-sbscrptn">
+      </p>
+    </div>
+    <div id="nwslttr-dismissbtn">
+      <button id="dismiss-btn" class="newsletterBtn">
+        Dismiss message
+      </button>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Mpilo3">Celimpilo Mbatha</a>.
+  </div>
+  <script src="post-sub-msg.js"></script>
+</body>
+</html>
