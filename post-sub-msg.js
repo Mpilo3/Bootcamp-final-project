@@ -24,7 +24,7 @@ document.getElementById('newsletter-form').addEventListener('submit', function(e
             userEmail.style.borderColor = '';
             userEmail.style.backgroundColor = '';
             userEmail.value = '';
-        }, 5000);
+        }, 3500);
     }
 
     if (isValid) {
